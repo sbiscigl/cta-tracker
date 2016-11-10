@@ -2,7 +2,7 @@ var responsebutton = document.getElementById('get-response-button');
 var responseLabel  = document.getElementById('response');
 
 /*Get your own key or ask very nicely*/
-var ctaToken = "areallyvalidtoken"
+var ctaToken = "815ee6119dbf4adead0b9fb54cf24d5e"
 
 responsebutton.onclick = responseListener
 
