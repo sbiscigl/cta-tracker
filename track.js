@@ -46,4 +46,6 @@ function getTimes() {
     req.send();
 }
 
+/*call it once before interval*/
+getTimes();
 window.setInterval(getTimes, 1000);
