@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'infinityregular';
+    src: url('fonts/infinity-webfont.woff2') format('woff2'), url('fonts/infinity-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #4ba7e5;
+}
+
+.container {
+    width: 600;
+    top: 80px;
+    left: 100px;
+}
+
+.ohare-label-container {
+    float: left;
+    position: relative;
+    top: 80px;
+    left: 150px;
+    width: 300px;
+    font-family: 'infinityregular';
+    font-weight: 900;
+    font-size: 150px;
+    color: #0064e8;
+}
+
+.loop-label-container {
+    float: left;
+    position: relative;
+    top: 80px;
+    left: 350px;
+    width: 300px;
+    font-family: 'infinityregular';
+    font-weight: 900;
+    font-size: 150px;
+    color: #77dbf9;
+}
