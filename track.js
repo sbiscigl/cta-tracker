@@ -36,8 +36,8 @@ function getTimes() {
                 .ctatt.eta;
             var oHareTrain = returnClosest(etaList, "Service toward O'Hare");
             var loopTrain = returnClosest(etaList, "Service toward Forest Park");
-            ohareResponseLabel.textContent = getTimeTillArrivalInMinutes(oHareTrain.arrT) - 60;
-            loopResponseLabel.textContent = getTimeTillArrivalInMinutes(loopTrain.arrT) - 60;
+            ohareResponseLabel.textContent = getTimeTillArrivalInMinutes(oHareTrain.arrT);
+            loopResponseLabel.textContent = getTimeTillArrivalInMinutes(loopTrain.arrT);
         }
     };
     var testRequest = "http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx?key=" + ctaToken + "&mapid=40670" + "&outputType=JSON";
